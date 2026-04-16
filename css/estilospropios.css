@@ -1,3 +1,40 @@
 h1{
     color:purple;
 }
+#logo
+{
+ width: 200px;
+}
+#camaleonPrincipal
+{
+width: 400px;
+}
+.fotografias
+{
+border:3px solid blue;
+}
+#menuPpal > a
+{
+    text-decoration: none;
+}
+#menu2 > a
+{
+ font-size: 30px;
+}
+h1 ~ p
+{
+    color:red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3
+{
+    font-size:25px;
+    font-family: cursive;
+}
+.parraItalica
+{
+    font-style: italic;
+}
+
