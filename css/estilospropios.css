@@ -68,3 +68,22 @@ h3
     color:#C4F567;
     font-size: 35px;
 }
+
+#menuPpal
+{
+    background-color: #47A930;
+    padding: 7px;
+    box-shadow: 5px 5px 15px 5px rgb(4, 39, 2);
+}
+#menuPpal li
+{
+    display: inline-block;
+    list-style: none;
+    padding:10px;
+}
+#menuPpal a
+{
+    text-decoration: none;
+    color: #C4F567;
+}
+
