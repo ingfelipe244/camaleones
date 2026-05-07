@@ -1,89 +1,85 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 .fontdiner-swanky-regular {
-  font-family: "Fontdiner Swanky", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Fontdiner Swanky", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
 
-h1{
-    color:purple;
+h1 {
+    color: purple;
 }
-#logo
-{
- width: 200px;
- height: 200px;
+
+#logo {
+    width: 200px;
+    height: 200px;
 }
-#camaleonPrincipal
-{
-width: 400px;
+
+#camaleonPrincipal {
+    width: 400px;
 }
-.fotografias
-{
-/*border:3px solid blue;*/
+
+.fotografias {
+    /*border:3px solid blue;*/
 }
-#menuPpal > a
-{
+
+#menuPpal>a {
     text-decoration: none;
 }
-#menu2 > a
-{
- font-size: 30px;
+
+#menu2>a {
+    font-size: 30px;
 }
-h1 ~ p
-{
-    color:red;
+
+h1~p {
+    color: red;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h3
-{
-    font-size:25px;
+h3 {
+    font-size: 25px;
     font-family: cursive;
 }
-.parraItalica
-{
+
+.parraItalica {
     font-style: italic;
 }
 
-#fondoCabeza
-{
+#fondoCabeza {
     width: 100%;
     height: 400px;
     background-color: #16430B;
 }
-#cajaLogo
-{
+
+#cajaLogo {
     padding-top: 100px;
 }
-#textoLogo
-{
-    color:#C4F567;
+
+#textoLogo {
+    color: #C4F567;
     font-size: 35px;
 }
 
-#menuPpal
-{
+#menuPpal {
     background-color: #47A930;
     padding: 7px;
     box-shadow: 5px 5px 15px 5px rgb(4, 39, 2);
 }
-#menuPpal li
-{
+
+#menuPpal li {
     display: inline-block;
     list-style: none;
-    padding:10px;
+    padding: 10px;
 }
-#menuPpal a
-{
+
+#menuPpal a {
     text-decoration: none;
     color: #C4F567;
 }
-
