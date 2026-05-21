@@ -60,17 +60,21 @@
 
                 <h1>Los Camaleones</h1>
 
+                
+                <br>
 
                 <p class="parraItalica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit similique
                     reiciendis
                     pariatur a, sed quas iste quo ab accusamus asperiores neque voluptates ut alias, voluptas totam
                     dolore?
                     Incidunt, totam at!</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit similique reiciendis pariatur a, sed
-                    quas iste
-                    quo ab accusamus asperiores neque voluptates ut alias, voluptas totam dolore? Incidunt, totam at!
-                </p>
+                    <br>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit similique reiciendis pariatur a, sed
+                        quas iste
+                        quo ab accusamus asperiores neque voluptates ut alias, voluptas totam dolore? Incidunt, totam at!
+                    </p>
+                    <br>
 
                 <h3> Sub titulo </h3>
 
@@ -82,9 +86,7 @@
             </div>
             <div id="contVideo">
                 <center>
-                    
-                        <video src="videos/camaleones.mp4" id="videoPpal" controls></video>
-
+                    <video src="videos/camaleones.mp4" id="videoPpal" controls></video>
                 </center>
             </div>
         </section>
@@ -96,7 +98,7 @@
                 <img src="imagenes/especie2.jpg" id="camaleonPrincipal" class="fotografias">
             </div>
             <div class="serv">
-                <img src="imagenes/especie2.jpg" id="camaleonPrincipal" class="fotografias">
+                <img src="imagenes/servicio2.png" id="camaleonPrincipal" class="fotografias">
             </div>
             <div class="serv">
                 <img src="imagenes/especie2.jpg" id="camaleonPrincipal" class="fotografias">
@@ -113,63 +115,74 @@
 
                     <br>
                     <label for="nombre1">Nombre:</label>
-                    <input type="text" name="nombre1" id="nombre1">
+                    <br>
+                    <input type="text" name="nombre1" id="nombre1"  class="textosFormularios">
                     <br>
 
                     <label for="identificacion1">Identificación: </label>
-                    <input type="number" name="identificacion1" id="identificacion1">
+                    <br>
+                    <input type="number" name="identificacion1" id="identificacion1" class="textosFormularios">
                     <br>
 
                     <label for="Correo Electronico">Correo Electronico</label>
-                    <input type="email">
+                    <br>
+                    <input type="email" class="textosFormularios">
 
                     <br>
                     <label for="">Contraseña:</label>
-                    <input type="password">
+                    <br>
+                    <input type="password" class="textosFormularios">
 
+                    <br>
                     <br>
                     <label>Genero:</label>
                     <br>
-                    <label for="masculino1">Masculino </label>
-                    <input type="radio" name="genero" id="masculino1" value="1">
+                    <br>
+                    <label for="masculino1">Masculino: </label>
+                     <input type="radio" name="genero" id="masculino1" value="1" class="comandosRadio">
+                    <br>
+                   
+                    <br>
                     <label for="femenino1">Femenino</label>
-                    <input type="radio" name="genero" id="femenino1" value="2">
-                    Otro
-                    <input type="radio" name="genero" id="otro1" value="3">
+                    <input type="radio" name="genero" id="femenino1" value="2" class="comandosRadio">
+                    <br>
+                    <br>
+                    <label>Otro</label>
+                    <input type="radio" name="genero" id="otro1" value="3" class="comandosRadio">
+                    <br>
+
 
                     <br>
 
                     <label>¿Que opina usted sobre los camaleones?</label>
                     <br>
 
-                    <textarea name="textoCamaleones" id="textoCamaleones" rows="10" cols="40"></textarea>
+                    <textarea name="textoCamaleones" id="textoCamaleones" rows="10" ></textarea>
 
                     <br>
 
                     <label for="paisReside">País</label>
-                    <select name="paisReside" id="paisReside">
+                    <br>
+                    <select name="paisReside" id="paisReside" class="textosFormularios">
                         <option value="0">-- SELECCIONE --</option>
                         <option value="1">Colombia</option>
                         <option value="2">Venezuela</option>
                         <option value="3">Peru</option>
                     </select>
-
-
-
+                    <br>
 
                     <br>
-                    <input type="submit" value="Guardar Datos">
-
-
+                    <input type="submit" value="Guardar Datos" id="btn">
 
                 </form>
 
             </div>
+
             <div id="contenedortabla">
 
-                <h1>Tabla sobre especies de camaleones</h1>
 
-                <table align="center" border="1" width="500px" id="tabla1">
+
+                <table align="center" id="tabla1">
                     <caption>Especies en Latinoamerica</caption>
                     <thead>
                         <tr>
@@ -180,24 +193,18 @@
                         </tr>
                     </thead>
                     <tbody align="center">
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td colspan="2">
-                                <center>CARACTERISTICAS</center>
-                            </td>
-                        </tr>
+                       
 
                         <tr>
                             <td rowspan="2">COLOMBIA</td>
                             <td>1</td>
-                            <td><img src="imagenes/especie1.jpg" width="230px"></td>
+                            <td><img src="imagenes/especie1.jpg" width="230px" class="imgTabla"></td>
                             <td>Especie 1</td>
                         </tr>
                         <tr>
 
                             <td>2</td>
-                            <td><img src="imagenes/especie2.jpg" width="230px"></td>
+                            <td><img src="imagenes/especie2.jpg" width="230px" class="imgTabla"></td>
                             <td>Especie 2</td>
                         </tr>
                     </tbody>
@@ -215,8 +222,9 @@
         <div id="contenedorUbicacion">
 
             <ul>
-                <li>Lenguaje de bajo nivel </li>
-                <li>Lenguaje de alto nivel </li>
+                <li>Dirección:  </li>
+                <li>Teléfono: </li>
+                <li>Email: </li>
             </ul>
 
         </div>
@@ -232,7 +240,7 @@
             <div>
                 <h3>Canción</h3>
 
-                <audio src="audios/audio.mp3" controls></audio>
+                <audio src="audios/audio.mp3" id="audio1"  controls></audio>
             </div>
 
 
